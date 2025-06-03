@@ -1,0 +1,12 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./resources/css/input.css -o ./public/assets/css/out.css",
+    "build:watch": "tailwindcss -i ./resources/css/input.css -o ./public/assets/css/out.css -w"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "tailwindcss": "^4.1.6"
+  }
+}
